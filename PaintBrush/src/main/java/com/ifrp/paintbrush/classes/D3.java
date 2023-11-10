@@ -19,6 +19,6 @@ public abstract class D3 extends Ponto {
     public void desenhar (Graphics g){
         g.setColor(cor);
         if(exibirVolume) g.drawString("Volume: " + Float.toString(volume()), x, y);
-        if(exibirArea) g.drawString("Área: " + Float.toString(area()), x, y);
+        if(exibirArea) g.drawString("Área: " + Float.toString(area()), x, y-15);
     }
 }
